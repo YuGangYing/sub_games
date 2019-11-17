@@ -6,7 +6,7 @@ namespace BlueNova.SubGames.MagicCube
     public class SpawnManager
     {
 
-        public GameObject[] InitCubes(MagicCubeRotate magicCubeRotate, int count)
+        public GameObject[] InitCubes(MagicCubeController magicCubeRotate, int count)
         {
             GameObject prefab = Resources.Load<GameObject>("Prefabs/cube");
             List<GameObject> cubes = new List<GameObject>();
